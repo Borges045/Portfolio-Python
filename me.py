@@ -8,7 +8,7 @@ st.set_page_config(page_title="Portfólio | Lucas Luiz Borges", layout="wide")
 st.title("👨‍💻 Lucas Luiz Borges")
 st.markdown("### Dev in Progress ⚙️ | Code & Iron 💪")
 
-# Sidebar com informações pessoais
+# Adicionando uma sidebar com links para contato
 with st.sidebar:
     st.image("bannerme.png", caption="Lucas Luiz Borges", width=255)
     st.markdown("### Contatos")
@@ -51,8 +51,9 @@ Treinos diarios é o principio para aplicar os princípios do fisiculturismo —
 Minha rotina é ajustada para manter a produtividade e o foco mesmo com desafios de sono noturnos.
 """)
 
+#adicionando um texto interativo para enviar ususarios para os links
 st.header("📬 Entre em Contato")
-st.write("Caso tenha se interecado em minhas habilidades a sua esquerda esta meus links de contatos.")
+st.write("Caso tenha se interecado em minhas habilidades a sua esquerda tem uma barra com links de contatos.")
 
 st.markdown("---")
 st.markdown("Feito com ❤️ por Lucas Luiz Borges")
